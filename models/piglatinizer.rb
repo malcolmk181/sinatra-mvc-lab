@@ -23,7 +23,8 @@ class PigLatinizer
         strings = []
 
         # this loop takes the array of characters from
-        # the input string, and splits it into
+        # the input string, and splits it into arrays
+        # of letter or non-letter sequences
         word = []
         inword = false
         for c in chars do
